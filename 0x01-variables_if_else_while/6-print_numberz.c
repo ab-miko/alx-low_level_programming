@@ -8,6 +8,14 @@
  */
 int main(void)
 {
-	puts("0123456789");
+	int n;
+
+	n = 0;
+	while (n < 10)
+	{
+		putchar (n + '0');
+		n++;
+	}
+
 	return (0);
 }
